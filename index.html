@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hogwarts School</title>
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="stylesheet" href="./src/css/keyframes.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header class="cabecalho">
+    <div class="logo">
+      <img src="./src/img/Hogwarts-Crest.png" alt="logo de hogwarts">
+    </div>
+    <nav>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#casas">Casas Comunais</a></li>
+        <li><a href="#professores">Professores</a></li>
+        <li><a href="#material">Material Escolar</a></li>
+        <li class="btn-portal"><a href="#">Portal</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre">
+      <div class="grid-container">
+        <div class="inf-lateral">
+          <div class="logo">
+            <h1>Hogwarts</h1>
+            <h2>Escola de Magia e Bruxaria</h2>
+          </div>
+          <div class="redes-sociais">
+            <h2>Siga-nos</h2>
+            <p>Acompanhe-nos para novidades, dicas e atualizações exclusivas. Não perca a chance de fazer parte da nossa
+              comunidade!</p>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+            <a class="cta" href="">
+              Venha ser um bruxo
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <article class="hogwarts-school">
+            <h2>Hogwarts School</h2>
+            <p class="des">
+              Hogwarts, fundada há mais de mil anos, é uma escola de excelência em educação mágica, conhecida por seu
+              ambiente acolhedor e suas tradições. Descubra o que torna Hogwarts especial.
+            </p>
+            <a href="#casas" class="school">
+              <i class="fas fa-arrow-right"></i>
+            </a>
+          </article>
+          <article class="what-we-do">
+            <h2>O que fazemos?</h2>
+            <p>Hogwarts, com mais de mil anos de história, oferece aulas de magia, Quadribol, uma biblioteca secreta,
+              clubes, festas, a Floresta Proibida e o Lago Negro. Prepare-se para momentos mágicos!</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="casas">
+      <div class="container">
+
+        <!-- Grifinória -->
+        <div class="house">
+          <img src="./src/img/Gryffindor.jpg" alt="Grifinória">
+          <div class="house-description">
+            <h2 style="color: #550e0a;">Gryffindor</h2>
+            <p>Grifinória é conhecida por seus membros valorosos, corajosos e destemidos. Fundada por Godric Gryffindor,
+              esta
+              casa preza pela bravura, determinação e cavalheirismo. A cor da Grifinória é vermelho e ouro, e seu
+              símbolo é um
+              leão. Os alunos de Grifinória são frequentemente selecionados para suas habilidades de liderança, coragem
+              e
+              forte senso de justiça.</p>
+          </div>
+        </div>
+
+        <!-- Lufa-Lufa -->
+        <div class="house lufa-lufa">
+          <div class="house-description">
+            <h2 style="color: #B0751B;">Hufflepuff</h2>
+            <p>Lufa-Lufa é conhecida por seus membros leais, pacientes e justos. Fundada por Helga Hufflepuff, esta casa
+              preza
+              pela bondade, trabalho duro e igualdade. A cor da Lufa-Lufa é amarelo e preto, e seu símbolo é um texugo.
+              Os
+              alunos de Lufa-Lufa são frequentemente selecionados por suas habilidades sociais, senso de comunidade e
+              integridade.</p>
+          </div>
+          <img src="./src/img/Hufflepuff.jpg" alt="Lufa-Lufa">
+        </div>
+
+        <!-- Sonserina -->
+        <div class="house">
+          <img src="./src/img/Slytherin.jpg" alt="Sonserina">
+          <div class="house-description">
+            <h2 style="color: #03c74e;">Slytherin</h2>
+            <p>Sonserina é conhecida por seus membros ambiciosos, determinados e astutos. Fundada por Salazar Slytherin,
+              esta
+              casa preza pela ambição, determinação e auto-preservação. A cor da Sonserina é verde e prata, e seu
+              símbolo é
+              uma cobra. Os alunos de Sonserina são frequentemente selecionados por suas habilidades de astúcia, ambição
+              e
+              determinação em alcançar seus objetivos.</p>
+          </div>
+        </div>
+
+        <!-- Corvinal -->
+        <div class="house corvinal">
+          <div class="house-description">
+            <h2 style="color: #2A8BB3;">Ravenclaw</h2>
+            <p>Corvinal é conhecida por seus membros sábios, criativos e intelectuais. Fundada por Rowena Ravenclaw,
+              esta casa
+              preza pelo conhecimento, sabedoria e curiosidade. A cor de Corvinal é azul e bronze, e seu símbolo é uma
+              águia.
+              Os alunos de Corvinal são frequentemente selecionados por suas habilidades acadêmicas, curiosidade
+              intelectual e
+              criatividade.</p>
+          </div>
+          <img src="./src/img/Ravenclaw.jpg" alt="Corvinal">
+        </div>
+
+      </div>
+    </section>
+    <section id="professores">
+      <div class="grid-container">
+        <div class="corpo-docente">
+          <div class="des">
+            <h2>Corpo Docente<br>de Hogwarts</h2>
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <p>Nossa escola tem professores altamente capacitados e dedicados, comprometidos em oferecer a melhor educação
+            mágica
+            possível. Entre os mais renomados, destacamos:</p>
+        </div>
+
+        <div class="professor minerva">
+          <img src="./src/img/minerva.jpg" alt="Professora Minerva">
+          <div class="des">
+            <h3>Professora Minerva McGonagall</h3>
+            <p>Transfiguração</p>
+          </div>
+        </div>
+
+        <div class="professor snape">
+          <img src="./src/img/snape.jpg" alt="Professor Snape">
+          <div class="des">
+            <h3>Professor Severo Snape</h3>
+            <p>Porções</p>
+          </div>
+        </div>
+
+        <div class="professor dumbledore">
+          <img src="./src/img/dumbledore.jpg" alt="Professor Dumbleodore">
+          <div class="des">
+            <h3>Alvo Dumbledore</h3>
+            <p>Diretor</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="material">
+      <h2 class="titulo">Material Escolar</h2>
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-arrow-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <figure class="img"><img src="./src/img/uniform.jpg" alt="img" draggable="false"></figure>
+            <h2>Uniforme</h2>
+          </li>
+          <li class="card">
+            <figure class="img"><img src="./src/img/books1.jpg" alt="img" draggable="false"></figure>
+            <h2>Livros Didáticos (Primeiro Ano)</h2>
+          </li>
+          <li class="card">
+            <figure class="img"><img src="./src/img/books2.jpg" alt="img" draggable="false"></figure>
+            <h2>Outros Equipamentos</h2>
+          </li>
+          <li class="card">
+            <figure class="img"><img src="./src/img/vassoura.jpg" alt="img" draggable="false"></figure>
+            <h2>Equipamentos Adicionais</h2>
+          </li>
+          <li class="card">
+            <figure class="img"><img src="./src/img/items.jpg" alt="img" draggable="false"></figure>
+            <h2>Itens Especiais</h2>
+          </li>
+          <li class="card">
+            <figure class="img"><img src="./src/img/animals.jpg" alt="img" draggable="false"></figure>
+            <h2>Animais</h2>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-arrow-right"></i>
+      </div>
+    </section>
+
+</body>
+
+</main>
+
+<footer>
+  <p>&copy; 2024 Hogwarts School of Witchcraft and Wizardry</p>
+</footer>
+
+<script src="./js/carrossel.js"></script>
+<script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

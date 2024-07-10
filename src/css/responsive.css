@@ -1,0 +1,360 @@
+@media screen and (max-width: 1060px) {
+  .cabecalho .menu ul li a {
+    padding: 5px;
+  }
+
+  .cabecalho .menu ul {
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .inf-lateral {
+    margin-top: 45px;
+  }
+
+  .nav-list {
+    gap: 5px;
+  }
+
+  #sobre {
+    height: auto;
+  }
+
+  #sobre .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  #sobre .grid-container .inf-lateral {
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 90px;
+  }
+
+  #sobre .grid-container .inf-lateral .logo {
+    transform: rotate(0deg);
+    margin-top: 0;
+  }
+
+  .inf-lateral .redes-sociais .cta {
+    width: 280px;
+    text-align: center;
+    border-radius: 40px;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    margin: 10px 0px;
+    z-index: 1;
+  }
+
+  .inf-lateral .redes-sociais .cta i {
+    margin-left: 50px;
+    background-color: #005a5a;
+    padding: 10px;
+    border-radius: 20px;
+    color: #000000;
+  }
+
+  #sobre .grid-container .container {
+    height: auto;
+    align-items: center;
+  }
+
+  #sobre .grid-container .container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 30px;
+  }
+
+  .hogwarts-school h2 {
+    font-size: 55px;
+    line-height: normal;
+  }
+
+  .what-we-do {
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+  }
+
+  .hogwarts-school .school {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+  }
+
+  .corpo-docente h2 {
+    font-size: 40px;
+  }
+
+  #professores .grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 295px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  .corpo-docente {
+    grid-area: 1 / 1 / 2 / 3;
+  }
+
+  .dumbledore {
+    grid-area: 1 / 3 / 2 / 5;
+  }
+
+  .minerva {
+    grid-area: 2 / 3 / 3 / 5;
+  }
+
+  .snape {
+    grid-area: 2 / 1 / 3 / 3;
+  }
+
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+
+  .carousel .card h2 {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #c7c7c7;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .cabecalho {
+    background: transparent;
+    backdrop-filter: blur(0px);
+    background-color: #000000;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 40vw;
+    height: auto;
+    background: #002222;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(120%);
+    transition: transform 0.3s ease-in;
+    z-index: calc(1*2);
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+    .nav-list li {
+      text-align: center;
+      padding: 10px;
+      background-color: #00363693;
+      width: 100%;
+    }
+
+        .btn-portal{
+          border-radius: 0;
+        }
+
+  .inf-lateral {
+    margin-top: 0px;
+  }
+
+  .btn-portal {
+    background: transparent;
+    border: none;
+  }
+
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .nav-list.active {
+    transform: translateX(0);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  .hogwarts-school h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+    .hogwarts-school .des {
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+  .what-we-do {
+    right: 30px;
+    bottom: 10px;
+  }
+
+  #casas::before {
+    display: none;
+  }
+
+  .house {
+    padding: 15px;
+  }
+
+  .house-description {
+    text-align: start;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .house-description h2 {
+    font-size: 40px;
+  }
+
+  .house-description p {
+    font-size: 16px;
+  }
+
+  .corpo-docente h2 {
+    font-size: 25px;
+  }
+
+  .corpo-docente p {
+    font-size: 16px;
+  }
+
+  .professor .des {
+    background-color: #18181885;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    position: absolute;
+    gap: 5px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  #professores .grid-container {
+    grid-template-rows: repeat(4, 200px);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  .corpo-docente {
+    grid-area: 1 / 1 / 2 / 5;
+  }
+
+  .dumbledore {
+    grid-area: 2 / 1 / 3 / 5;
+  }
+
+  .snape {
+    grid-area: 3 / 1 / 4 / 5;
+  }
+
+  .minerva {
+    grid-area: 4 / 1 / 4 / 5;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #sobre .grid-container .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hogwarts-school {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .what-we-do {
+    width: 100%;
+    position: relative;
+    margin-left: 60px;
+    height: 200px;
+    font-size: 16px;
+  }
+
+  .house {
+    flex-direction: column;
+  }
+
+  .house.lufa-lufa,
+  .house.corvinal {
+    flex-direction: column-reverse;
+  }
+
+  .house img {
+    width: 100%;
+  }
+
+  .house-description {
+    width: 100%;
+  }
+
+  #material .titulo {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  .wrapper i {
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+    line-height: 40px;
+  }
+
+  .wrapper {
+    height: 275px;
+  }
+
+  .carousel {
+    height: 100%;
+  }
+
+  .carousel .card {
+    height: 270px;
+  }
+
+  .carousel .card .img {
+    width: 100%;
+    height: 85%;
+  }
+
+  .carousel .card h2 {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
